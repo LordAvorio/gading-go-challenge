@@ -3,6 +3,16 @@
 
 A repository of my mid test assignment in iSwift golang-cohort-3 class.
 
+## Requirements
+
+You need install these things before you can run this project
+
+| Installation | Link     | 
+| :----------- | :------- | 
+| `Golang`     | [Here](https://go.dev/dl/) |
+| `MySQL`      | [Here](https://dev.mysql.com/downloads/) |
+
+
 ## How To Run this project locally
 
 Clone this repository into your local PC

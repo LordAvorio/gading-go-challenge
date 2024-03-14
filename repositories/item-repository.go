@@ -55,6 +55,7 @@ func (r *ItemRepository) UpdateItem(item *models.Item) (*models.Item, error) {
 			Name:        item.Name,
 			Quantity:    item.Quantity,
 			Description: item.Description,
+			UpdateAt:    item.UpdateAt,
 		}).Error
 		if errUpdate != nil {
 			return nil, errUpdate
